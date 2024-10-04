@@ -1,0 +1,22 @@
+{
+	"name": "enhanced-url",
+	"version": "1.0.0",
+	"main": "src/index.js",
+	"types": "types/index.d.ts",
+  "type": "module",
+	"scripts": {
+		"test": "jest"
+	},
+	"jest": {
+		"testMatch": [
+			"<rootDir>/tests/**/*.test.js"
+		]
+	},
+	"keywords": [],
+	"license": "MIT",
+	"author": "David Llopis Laguna",
+	"description": "A library for parsing URL path parameters",
+	"devDependencies": {
+		"jest": "^29.7.0"
+	}
+}
