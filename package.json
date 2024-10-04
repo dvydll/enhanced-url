@@ -3,11 +3,11 @@
 	"version": "1.0.0",
 	"main": "src/index.js",
 	"types": "types/index.d.ts",
-  "type": "module",
+	"type": "module",
 	"scripts": {
-		"test": "jest"
+		"test": "npx vitest"
 	},
-	"jest": {
+	"vitest": {
 		"testMatch": [
 			"<rootDir>/tests/**/*.test.js"
 		]
@@ -17,6 +17,6 @@
 	"author": "David Llopis Laguna",
 	"description": "A library for parsing URL path parameters",
 	"devDependencies": {
-		"jest": "^29.7.0"
+		"vitest": "^2.1.2"
 	}
 }
