@@ -42,6 +42,7 @@ console.log(params.toObject()); // { apiVersion: 'v2', name: 'ditto' }
 ```
 64.0 KiB  enhanced-url/
  4.0 KiB    ├── README.md
+ 4.0 KiB    ├── LICENSE
  4.0 KiB    ├── index.d.ts
 36.0 KiB    ├── package-lock.json
  4.0 KiB    ├── package.json
@@ -53,7 +54,7 @@ console.log(params.toObject()); // { apiVersion: 'v2', name: 'ditto' }
  4.0 KiB        ├── enhanced-url.test.js
  4.0 KiB        └── url-path-params.test.js
 
-2 directories, 9 files
+2 directories, 10 files
 ```
 
 ## Pruebas

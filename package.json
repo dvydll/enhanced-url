@@ -2,7 +2,7 @@
 	"name": "enhanced-url",
 	"version": "1.0.0",
 	"main": "src/index.js",
-	"types": "types/index.d.ts",
+	"types": "index.d.ts",
 	"type": "module",
 	"scripts": {
 		"test": "npx vitest"
@@ -12,7 +12,7 @@
 			"<rootDir>/tests/**/*.test.js"
 		]
 	},
-	"keywords": [],
+	"keywords": ["URL extension", "native", "path params"],
 	"license": "MIT",
 	"author": "David Llopis Laguna",
 	"description": "A library for parsing URL path parameters",
