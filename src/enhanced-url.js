@@ -1,3 +1,5 @@
+'use strict'
+
 import { URLPathParams } from "./url-path-params.js";
 
 export class EnhancedURL extends URL {
